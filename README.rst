@@ -11,7 +11,8 @@ graphique.
 
 La version graphique utilise la bibliothèque pygame (à venir).
 
-## Installation des dépendances
+Installation des dépendances
+----------------------------
 
 Les dépendances de ce projet s'installent avec pipenv que vous devez au 
 préalable installer sur votre ordinateur (``pip install pipenv``). Ensuite: 
@@ -19,7 +20,8 @@ préalable installer sur votre ordinateur (``pip install pipenv``). Ensuite:
 
     $ pipenv install
 
-## Démarrage du programme
+Démarrage du programme
+----------------------
 
 Pour lancer l'application, il suffit d'utiliser la commande suivante sans
 activation préalable d'un environnement virtuel:
