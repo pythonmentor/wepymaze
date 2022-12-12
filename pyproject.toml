@@ -48,3 +48,6 @@ changelog = "https://github.com/pythonmentor/wepymaze/blob/main/HISTORY.rst"
 
 [project.scripts]
 wepymaze = "wepymaze.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["wepymaze*"]

@@ -1,6 +1,6 @@
 """Module définissant des objets en relation avec le concept de labyrinthe."""
 
-from config.settings import PASSAGE, WALL, START, EXIT
+from wepymaze.settings import PASSAGE, WALL, START, EXIT
 
 from .position import Position
 
