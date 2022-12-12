@@ -1,0 +1,2 @@
+[console_scripts]
+wepymaze = wepymaze.__main__:main
