@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "essai77-wepymaze"
+version = "0.1.0"
+description = "A simple text-base game"
+readme = "README.rst"
+requires-python = ">=3.9"
+license = {file = "LICENSE.txt"}
+keywords = ["game", "curese", "educational example"]
+authors = [
+  {name = "Thierry Chappuis", email = "tchappui@gmail.com"}
+]
+maintainers = [
+  {name = "Thierry Chappuis", email = "tchappui@gmail.com"}
+]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+  "windows-curses; sys_platform=='win32'"
+]
+
+# dynamic = ["version", "description"]
+
+[project.optional-dependencies]
+test = [
+  "pytest > 5.0.0"
+]
+doc = [
+  "sphinx"
+]
+
+[project.urls]
+homepage = "https://example.com"
+documentation = "https://readthedocs.org"
+repository = "https://github.com/pythonmentor/wepymaze.git"
+changelog = "https://github.com/pythonmentor/wepymaze/blob/main/HISTORY.rst"
+
+[project.scripts]
+wepymaze = "wepymaze.__main__:main"
