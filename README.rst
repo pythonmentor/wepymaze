@@ -16,6 +16,7 @@ Installation des dépendances
 
 Les dépendances de ce projet s'installent avec pipenv que vous devez au 
 préalable installer sur votre ordinateur (``pip install pipenv``). Ensuite: 
+
 .. code-block::
 
     $ pipenv install
