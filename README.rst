@@ -15,16 +15,15 @@ La version graphique utilise la bibliothèque pygame (à venir).
 
 Les dépendances de ce projet s'installent avec pipenv que vous devez au 
 préalable installer sur votre ordinateur (``pip install pipenv``). Ensuite: 
-.. code-block:: none
+.. code-block::
 
     $ pipenv install
 
-``
 ## Démarrage du programme
 
 Pour lancer l'application, il suffit d'utiliser la commande suivante sans
 activation préalable d'un environnement virtuel:
 
-.. code-block:: none
+.. code-block::
 
     $ pipenv run python -m micromaze
